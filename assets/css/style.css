@@ -1,8 +1,8 @@
-.navigation-main {
-  width: 100%;
-  position: absolute;
-  z-index: 111;
-  background: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,30 +12,179 @@ body {
   height: 100%;
 }
 
+img {
+  width: 100%;
+}
+
+.navigation-main {
+  width: 100%;
+  position: absolute;
+  z-index: 111;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  height: auto;
+  transition: all 0.5s ease;
+}
+.navigation-main .navbar {
+  padding: 0;
+}
+.navigation-main .navbar .dropdown {
+  position: relative;
+}
+.navigation-main .navbar .dropdown .dropdown-menu {
+  width: auto;
+  top: 37px;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  margin: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+.navigation-main .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+.navigation-main .navbar-light .navbar-brand {
+  background-color: transparent;
+  padding: 15px;
+  margin: 0;
+  width: 190px;
+  transition: all 0.5s ease;
+}
+.navigation-main .navbar-light .navbar-brand img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.navigation-main .navbar-light .navbar-nav .nav-item {
+  margin: 0 7px;
+}
+.navigation-main .navbar-light .navbar-nav .nav-item .dropdown-item {
+  padding: 5px 14px 5px 14px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.navigation-main .navbar-light .navbar-nav .nav-item .dropdown-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ec3136;
+}
+.navigation-main .navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.sticky-header {
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  position: fixed;
+  height: 75px;
+}
+.sticky-header .nav-link {
+  color: #393939 !important;
+}
+.sticky-header .navbar-brand {
+  padding: 10px !important;
+  width: 170px !important;
+  transition: all 0.5s ease;
+}
+
 .hero-carousel-section {
   width: 100%;
   height: 100vh;
 }
-
-.swiper-container {
+.hero-carousel-section .swiper-container {
   width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100vh;
 }
-
-.swiper-slide {
+.hero-carousel-section .swiper-container .captions-box {
+  width: 100%;
+}
+.hero-carousel-section .swiper-container .captions-box .slide-captions {
+  position: absolute;
+  top: 46%;
+  right: 0;
+  z-index: 999;
+  width: 50%;
+}
+.hero-carousel-section .swiper-container .captions-box .slide-captions .current-title {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero-carousel-section .swiper-container .captions-box .fixed-title {
+  position: absolute;
+  width: 50%;
+  float: left;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  z-index: 1111;
+  top: 46%;
+  text-align: right;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 200;
+}
+.hero-carousel-section .swiper-container .captions-box .fixed-title:after {
+  width: 5px;
+  height: 35px;
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+  right: -24px;
+  top: 11px;
+}
+.hero-carousel-section .swiper-container .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  position: relative;
 }
-
-.swiper-slide img {
+.hero-carousel-section .swiper-container .swiper-slide img {
   width: 100%;
 }
 
 .swiper-pagination-bullet-active {
   background-color: #fff;
+}
+
+/************************************************Home About Section CSS************************************************/
+.home-about-section {
+  padding: 4% 0;
+}
+.home-about-section h1 {
+  font-family: "Poppins", sans-serif;
+  color: #ec3136;
+  font-size: 2em;
+}
+.home-about-section .home-about-content ul {
+  margin: 0;
+  padding: 0;
+}
+.home-about-section .home-about-content ul li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-about-section .home-about-content ul li span {
+  width: 55px;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

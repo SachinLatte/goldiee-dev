@@ -1,0 +1,88 @@
+.navigation-main {
+  width: 100%;
+  position: absolute;
+  z-index: 111;
+  background-color: $transparent-color;
+  display: flex;
+  align-items: center;
+  height: auto;
+  transition: all 0.5s ease;
+  .navbar {
+    padding: 0;
+    .dropdown {
+      position: relative;
+      .dropdown-menu {
+        width: auto;
+        top: 37px;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        margin: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+        border: none;
+        padding: 0;
+        border-radius: 0;
+      }
+      &:hover {
+        .dropdown-menu {
+          display: block;
+          visibility: visible;
+          opacity: 1;
+          transition: visibility 0s, opacity 0.3s linear;
+        }
+      }
+    }
+  }
+  .navbar-light {
+    .navbar-brand {
+      background-color: $transparent-color;
+      padding: 15px;
+      margin: 0;
+      width: 190px;
+      transition: all 0.5s ease;
+      img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+    .navbar-nav {
+      .nav-item {
+        margin: 0 7px;
+        .dropdown-item {
+          padding: 5px 14px 5px 14px;
+          margin: 0;
+          text-transform: uppercase;
+          font-size: 14px;
+          &:hover {
+            color: $white-color;
+            text-decoration: none;
+            background-color: $primary-color;
+          }
+        }
+        .nav-link {
+          font-family: $heading-font;
+          color: $white-color;
+          font-weight: 400;
+          text-transform: uppercase;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
+}
+
+.sticky-header {
+  background-color: $white-color;
+  transition: all 0.5s ease;
+  position: fixed;
+  height: 75px;
+  .nav-link {
+    color: $paragraph-color!important;
+  }
+  .navbar-brand {
+    padding: 10px!important;
+    width: 170px!important;
+    transition: all 0.5s ease;
+}
+}
