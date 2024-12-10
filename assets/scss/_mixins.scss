@@ -2,14 +2,17 @@
   font-family: $heading-font;
   color: $primary-color;
   font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 46px;
 }
 
 @mixin common-para{
   font-family: $paragraph-font;
-  font-size: 1.5em;
+  font-size: 16px;
   color: $paragraph-color;
-  line-height: 36px;
-  text-align: justify;
+  line-height: 30px;
+  text-align: left;
   font-weight: 400;
 }
 @mixin common-padding{

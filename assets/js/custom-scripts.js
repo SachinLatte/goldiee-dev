@@ -74,3 +74,39 @@ $(document).ready(function() {
       stickyHeader.classList.remove("sticky-header");
     }
   }
+
+//STATS COUNTER
+$('.usp-counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  $({ countNum: $this.text()}).animate(
+    { countNum: countTo },
+    {
+      duration: 5000,
+      easing:'linear',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+      }
+    }
+  );
+});
+
+
+//LATEST FROM GOLDIEE CAROUSEL
+$(".latest-from-goldiee").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  autoplay:true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 4
+    }
+  }
+});

@@ -17,57 +17,193 @@
 </div>
 </section>  
 <section class="home-about-section">
-  <div class="container">
+  <div class="custom-container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
           <div class="about-video-div">
-            <img src="assets/img/about-left.webp" alt="About Left">
+            <div class="play-box text-lg-end text-center" style="visibility: visible;" id="about-video">
+                <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok" class="video-popup" target="_blank"><i class="fa-solid fa-play"></i></a>
+            </div>
           </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
         <div class="home-about-content">
-            <h1>About Us</h1>
+            <h1 class="mb-2">We Give You Complete Control <br> Of Your Poultry Fields.</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <ul>
-              <li>
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-                </span>
+            <ul class="mt-4">
+              <li class="mb-2">
                 <div>
-                  <h4>Est labore ad</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4 class="mb-1">Corporis voluptates</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur <br> laboris nisi ut aliquip </p>
                 </div>
               </li>
-              <li>
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-                </span>
+              <li class="mb-2">
                 <div>
-                  <h4>Est labore ad</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-              </li>
-              <li>
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-                </span>
-                <div>
-                  <h4>Est labore ad</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-              </li>
-              <li>
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-                </span>
-                <div>
-                  <h4>Est labore ad</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4 class="mb-1">
+                  Explicabo consectetur</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur <br>  laboris nisi ut aliquip </p>
                 </div>
               </li>
             </ul>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+<section class="counter-stats">
+	<div class="custom-container">
+    <h4>Goldiee Group at a glance</h4>
+		<div class="row no-gutters">
+			<div class="col-3 stats pl-4">
+				<!-- <i class="fa fa-user" aria-hidden="true"></i> -->
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="90">0</div>
+          <span>+</span>
+        </div>
+				<h5>NUMBER OF TEACHERS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+				<!-- <i class="fa fa-building" aria-hidden="true"></i> -->
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="7000">0</div>
+
+        </div>
+				<h5>NUMBER OF SCHOOLS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+				<!-- <i class="fa fa-graduation-cap" aria-hidden="true"></i> -->
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="240">0</div>
+          <span>+</span>
+        </div>
+				<h5>NUMBER OF STUDENTS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+				<!-- <i class="fa fa-users" aria-hidden="true"></i> -->
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="1800">0</div>
+          <!-- <span>+</span> -->
+        </div>
+				<h5>NUMBER OF PARENTS</h5>
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="home-our-brands">
+  <div class="custom-container">
+    <h1 class="mb-2">Our Brands</h1>
+    <p>With over seven decades of responsible business practices, our businesses have grown into global powerhouses in a wide range of <br> sectors – from metals to cement, fashion to financial services and textiles to trading.</p>
+    <div class="home-brands-grid">
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/goldiee-masale.webp" alt="goldiee masale">
+          <div class="home-brands-content">
+            <h3>Goldiee Masale</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/double-engine.webp" alt="double engine">
+          <div class="home-brands-content">
+            <h3>Double Engine</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/ketchup-sauces.webp" alt="ketchup sauces">
+          <div class="home-brands-content">
+            <h3>Ketchup & Sauces</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/one-one-noodles.webp" alt="one one noodles">
+          <div class="home-brands-content">
+            <h3>One One Noodles</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/pooja-ghar.webp" alt="pooja ghar">
+          <div class="home-brands-content">
+            <h3>Pooja Ghar</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+      <div class="home-brands position-relative">
+        <a href="javascript:void(0)" class="d-block">
+          <img src="assets/img/business/beverages.webp" alt="beverages">
+          <div class="home-brands-content">
+            <h3>Beverages</h3>
+            <span>Know More <img src="assets/img/link-white.svg" alt="know more svg"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="home-blogs">
+  <div class="custom-container">
+    <h1 class="mb-2">Latest from Goldiee</h1>
+    <hr>
+    <div class="home-blog-carousel">
+    <div class="owl-carousel latest-from-goldiee owl-theme">
+    <div class="item">
+      <img src="https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Great Britain">
+      <div class="overlay">
+        <div>
+          <h2>London</h2>
+          <p>12 Popular places</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.pexels.com/photos/5282269/pexels-photo-5282269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Indonesia">
+      <div class="overlay">
+        <div>
+          <h2>Florence</h2>
+          <p>10 Popular places</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.pexels.com/photos/3722818/pexels-photo-3722818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Spain">
+      <div class="overlay">
+        <div>
+        <h2>Florence</h2>
+          <p>10 Popular places</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.pexels.com/photos/4046386/pexels-photo-4046386.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Italy">
+      <div class="overlay">
+        <div>
+          <h2>Florence</h2>
+          <p>10 Popular places</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.pexels.com/photos/4046386/pexels-photo-4046386.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Italy">
+      <div class="overlay">
+        <div>
+          <h2>Florence</h2>
+          <p>10 Popular places</p>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
   </div>
 </section>
