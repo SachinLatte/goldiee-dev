@@ -18,4 +18,20 @@
 @mixin common-padding{
   padding: 4% 0;
 }
-
+@mixin common-button{
+    border-radius: 50px;
+    border:1px solid $primary-color;
+    font-size: 13px;
+    font-family: $paragraph-font;
+    outline: none;
+    transition: all 0.5s ease;
+    padding: 6px 8px;
+    &:focus{
+      box-shadow:none;
+    }
+    a{
+      text-decoration: none;
+      color: $primary-color;
+      transition: all 0.5s ease;
+    }
+}

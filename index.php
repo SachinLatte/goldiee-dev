@@ -79,10 +79,8 @@
 				<h5>NUMBER OF STUDENTS</h5>
 			</div>
 			<div class="col-3 stats pl-4">
-				<!-- <i class="fa fa-users" aria-hidden="true"></i> -->
         <div class="stats-count">
 				  <div class="usp-counting" data-count="1800">0</div>
-          <!-- <span>+</span> -->
         </div>
 				<h5>NUMBER OF PARENTS</h5>
 			</div>
@@ -156,55 +154,163 @@
   <div class="custom-container">
     <h1 class="mb-2">Latest from Goldiee</h1>
     <hr>
-    <div class="home-blog-carousel">
+    <div class="home-blog-carousel mt-4">
     <div class="owl-carousel latest-from-goldiee owl-theme">
     <div class="item">
-      <img src="https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Great Britain">
-      <div class="overlay">
-        <div>
-          <h2>London</h2>
-          <p>12 Popular places</p>
-        </div>
+      <div class="bolgs-img-div">
+        <img src="assets/img/blog.webp" alt="Great Britain">
+      </div>
+      <div class="blogs-content">
+        <span>28 November, 2024</span>
+        <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
+        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-angle-right"></i></a></button>
       </div>
     </div>
     <div class="item">
-      <img src="https://images.pexels.com/photos/5282269/pexels-photo-5282269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Indonesia">
-      <div class="overlay">
-        <div>
-          <h2>Florence</h2>
-          <p>10 Popular places</p>
-        </div>
+      <div class="bolgs-img-div">
+        <img src="assets/img/blog.webp" alt="Great Britain">
+      </div>
+      <div class="blogs-content">
+        <span>28 November, 2024</span>
+        <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
+        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-angle-right"></i></a></button>
       </div>
     </div>
     <div class="item">
-      <img src="https://images.pexels.com/photos/3722818/pexels-photo-3722818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Spain">
-      <div class="overlay">
-        <div>
-        <h2>Florence</h2>
-          <p>10 Popular places</p>
-        </div>
+      <div class="bolgs-img-div">
+        <img src="assets/img/blog.webp" alt="Great Britain">
+      </div>
+      <div class="blogs-content">
+        <span>28 November, 2024</span>
+        <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
+        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-angle-right"></i></a></button>
       </div>
     </div>
     <div class="item">
-      <img src="https://images.pexels.com/photos/4046386/pexels-photo-4046386.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Italy">
-      <div class="overlay">
-        <div>
-          <h2>Florence</h2>
-          <p>10 Popular places</p>
-        </div>
+      <div class="bolgs-img-div">
+        <img src="assets/img/blog.webp" alt="Great Britain">
+      </div>
+      <div class="blogs-content">
+        <span>28 November, 2024</span>
+        <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
+        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-angle-right"></i></a></button>
       </div>
     </div>
     <div class="item">
-      <img src="https://images.pexels.com/photos/4046386/pexels-photo-4046386.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Italy">
-      <div class="overlay">
-        <div>
-          <h2>Florence</h2>
-          <p>10 Popular places</p>
-        </div>
+      <div class="bolgs-img-div">
+        <img src="assets/img/blog.webp" alt="Great Britain">
+      </div>
+      <div class="blogs-content">
+        <span>28 November, 2024</span>
+        <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
+        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-angle-right"></i></a></button>
       </div>
     </div>
   </div>
     </div>
   </div>
 </section>
+<section class="home-career position-relative">
+  <div class="home-career-bg">
+  <div class="custom-container">
+    <div class="home-career-content">
+      <h2>Let's build the future together.</h2>
+      <p>Join a team of dedicated professionals committed <br> to a better tomorrow.</p>
+      <button class="btn read-more"><a href="javascript:void(0)">Come work with us</a></button>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="home-awards-achievements">
+  <div class="awards-container">
+  <div class="title title--center-line">Recognized By The Best</div>
+    <h4 class="mt-4">"Godrej Properties has received over 400 awards and <br> recognitions in the recent years."</h4>
+    <div class="awards-achievements-grid">
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">Winner - CSR in Real Estate Category</h3>
+        <span class="mt-3">Golden Peacock Award 2022</span>
+      </div>
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">Winner - Environmental & Social Initiatives - Infrastructure & Real Estate</h3>
+        <span class="mt-3">KPMG ESG Conclave and Awards 2023</span>
+      </div>
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">Pirojsha Godrej - Global Asian of the year 2022 - 2023 Award</h3>
+        <span class="mt-3">19th edition of Asian Business & Social Forum</span>
+      </div>
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">India's Top builder: Gold Award</h3>
+        <span class="mt-3">16th Construction World Architect and Builders Awards 2021</span>
+      </div>
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">Winner - Best Residential Developer - India</h3>
+        <span class="mt-3">Aon NASSCOM DEI Champions Award 2023</span>
+      </div>
+      <div class="awards-box">
+        <img src="assets/img/awards/awards-icon.svg" alt="">
+        <h3 class="mt-3">Winner - Best Residential Developer - India</h3>
+        <span class="mt-3">Euromoney's Global Real Estate Awards - 2023</span>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="custom-container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-2"> 
+          <a href="javascript:void(0)"><img src="assets/img/logo.webp" alt="Main Logo" class="w-100"></a>
+      </div>
+      <div class="col-md-10">
+        <div class="footer-navList">
+          <ul>
+            <li><a href="javascript:void(0)">Home</a></li>
+            <li><a href="javascript:void(0)">About Us</a></li>
+            <li><a href="javascript:void(0)">Brands</a></li>
+            <li><a href="javascript:void(0)">In The News</a></li>
+            <li><a href="javascript:void(0)">Career</a></li>
+            <li><a href="javascript:void(0)">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-10">
+        <div class="footer-contact-info">
+          <div class="row">
+          <div class="col-md-4">
+                <span>Contact:</span>
+                <p><a href="tel:1800 123 201 201"><i class="fa-solid fa-phone"></i> +91 -512 -2316862 / 2302737</a></p>
+                <p><a href="tel:7510000290"><i class="fa-solid fa-phone"></i> +91 - 7510000290 / 7510000291</a></p>
+                <p><a href="https://www.goldiee.com"><i class="fa-solid fa-globe"></i> goldiee.com</a></p>
+              </div>
+              <div class="col-md-4">
+                <span>Customer Care:</span>
+                <p><a href="tel:1800 123 201 201"><i class="fa-solid fa-phone"></i> (Toll Free) 1800 123 201 201</a></p>
+                <p><a href="tel:+91 -7388635999"><i class="fa-brands fa-whatsapp"></i> +91 -7388635999</a></p>
+                <p><a href="mailto:customercare@goldiee.com"><i class="fa-regular fa-envelope"></i> customercare@goldiee.com</a></p>
+              </div>
+              <div class="col-md-4">
+                  <span>Office Address:</span>
+                  <p>Shubham Goldiee Masale (P) Ltd., Corporate Head office- "Goldiee House" 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) PIN-208022</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</footer>
 <?php include 'tail.php' ?>

@@ -106,6 +106,67 @@ img {
   transition: all 0.5s ease;
 }
 
+footer {
+  width: 100%;
+  padding: 4% 0;
+  background-color: #FCFAF8;
+}
+footer .footer-navList {
+  width: 100%;
+  padding-left: 12%;
+}
+footer .footer-navList ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+footer .footer-navList ul li {
+  list-style: none;
+  margin-left: 55px;
+}
+footer .footer-navList ul li a {
+  text-decoration: none;
+  color: #393939;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+footer .footer-navList ul li:nth-child(1) {
+  margin-left: 0;
+}
+footer .footer-contact-info {
+  padding-left: 12%;
+}
+footer .footer-contact-info span {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #393939;
+  margin-bottom: 12px;
+  display: block;
+}
+footer .footer-contact-info p {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: #393939;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
+}
+footer .footer-contact-info p a {
+  color: #393939;
+  text-decoration: none;
+  margin-bottom: 3px;
+  display: block;
+}
+footer .footer-contact-info p a i {
+  font-size: 17px;
+  color: #832f40;
+  margin-right: 5px;
+}
+
 .hero-carousel-section {
   width: 100%;
   height: 100vh;
@@ -437,19 +498,37 @@ img {
   width: 100%;
   padding: 4% 0;
 }
+.home-blogs h1 {
+  font-family: "Poppins", sans-serif;
+  color: #832f40;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 46px;
+}
 .home-blogs .home-blog-carousel .latest-from-goldiee .item {
   width: 100%;
-  height: 400px;
   position: relative;
-  border-radius: 12px;
   overflow: hidden;
+  border: 1px solid #ececec;
+  cursor: pointer;
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  inset: 0;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item:hover img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item:hover .read-more {
+  background-color: #832f40;
+  transition: all 0.5s ease;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item:hover .read-more a {
+  color: #ffffff !important;
+  transition: all 0.5s ease;
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item .overlay {
   position: absolute;
@@ -478,21 +557,224 @@ img {
   letter-spacing: 0.5px;
   margin-bottom: 5px;
 }
-.home-blogs .home-blog-carousel .latest-from-goldiee .owl-nav {
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .bolgs-img-div {
+  overflow: hidden;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content {
+  padding: 15px;
+  background-color: #f7f7f7;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content span {
+  font-family: "Inter", serif;
+  display: block;
+  margin-bottom: 10px;
+  color: #832f40;
+  font-size: 14px;
+  font-weight: 500;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content h4 {
+  font-family: "Poppins", sans-serif;
+  color: #393939;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content p {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: #393939;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content button {
+  border-radius: 50px;
+  border: 1px solid #832f40;
+  font-size: 13px;
+  font-family: "Inter", serif;
+  outline: none;
+  transition: all 0.5s ease;
+  padding: 6px 8px;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content button:focus {
+  box-shadow: none;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content button a {
+  text-decoration: none;
+  color: #832f40;
+  transition: all 0.5s ease;
+}
+.home-blogs .home-blog-carousel .owl-nav {
   position: absolute;
   top: -100px;
   right: 0;
 }
-.home-blogs .home-blog-carousel .latest-from-goldiee .owl-nav button {
-  background: #fff !important;
+.home-blogs .home-blog-carousel .owl-nav button {
+  background: #393939;
   width: 45px;
   height: 45px;
-  font-size: 25px !important;
+  font-size: 31px !important;
   box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.0196078431);
   border-radius: 50%;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  transition: all 0.5s ease;
 }
-.home-blogs .home-blog-carousel .latest-from-goldiee .owl-nav button:nth-of-type(1) {
+.home-blogs .home-blog-carousel .owl-nav button:hover {
+  background-color: #832f40;
+  transition: all 0.5s ease;
+}
+.home-blogs .home-blog-carousel .owl-nav button:nth-of-type(1) {
   margin-right: 13px;
+}
+.home-blogs .home-blog-carousel .owl-nav button span {
+  margin-top: -5px;
+  display: block;
+}
+
+/************************************************Home Career CSS************************************************/
+.home-career {
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+.home-career .home-career-bg {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 115%), url("../img/career-bg.webp");
+  background-attachment: fixed;
+}
+.home-career .home-career-content {
+  position: absolute;
+  bottom: 110px;
+}
+.home-career .home-career-content h2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+}
+.home-career .home-career-content p {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: #393939;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 8px;
+  line-height: 26px;
+}
+.home-career .home-career-content button {
+  border-radius: 50px;
+  border: 1px solid #832f40;
+  font-size: 13px;
+  font-family: "Inter", serif;
+  outline: none;
+  transition: all 0.5s ease;
+  padding: 6px 8px;
+  margin-top: 25px;
+  background-color: #832f40;
+}
+.home-career .home-career-content button:focus {
+  box-shadow: none;
+}
+.home-career .home-career-content button a {
+  text-decoration: none;
+  color: #832f40;
+  transition: all 0.5s ease;
+}
+.home-career .home-career-content button a {
+  color: #ffffff;
+}
+
+.home-awards-achievements {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 4% 0;
+  background-color: #faf6f3;
+}
+.home-awards-achievements .awards-container {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+.home-awards-achievements .title {
+  font-family: "Inter", serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  color: #393939;
+  font-size: 20px;
+  font-weight: 400;
+}
+.home-awards-achievements .title:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  width: 4%;
+  margin-right: 1rem;
+}
+.home-awards-achievements .title:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  width: 4%;
+  margin-left: 1rem;
+}
+.home-awards-achievements h4 {
+  font-family: "Poppins", sans-serif;
+  color: #832f40;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 46px;
+  color: #832f40;
+  font-weight: 400;
+  font-size: 27px;
+  text-align: center;
+  line-height: 40px;
+}
+.home-awards-achievements .awards-achievements-grid {
+  margin-top: 65px;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 3em;
+  width: 100%;
+}
+.home-awards-achievements .awards-achievements-grid .awards-box {
+  background-color: #ffffff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 32px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.home-awards-achievements .awards-achievements-grid .awards-box img {
+  width: 22%;
+}
+.home-awards-achievements .awards-achievements-grid .awards-box h3 {
+  font-size: 20px;
+  font-family: "Inter", serif;
+  color: #393939;
+  font-weight: 500;
+  line-height: 26px;
+}
+.home-awards-achievements .awards-achievements-grid .awards-box span {
+  display: block;
+  font-family: "Inter", serif;
+  color: #393939;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

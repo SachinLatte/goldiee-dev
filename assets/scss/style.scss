@@ -5,6 +5,7 @@
 @import 'variable';
 @import 'mixins';
 @import 'navigations';
+@import 'footer';
 
 .hero-carousel-section{
   width: 100%;
@@ -319,23 +320,34 @@ p{
 .home-blogs{
   width: 100%;
   @include common-padding;
+  h1{
+    @include common-heading;
+  }
   .home-blog-carousel{
     .latest-from-goldiee{
       .item {
         width: 100%;
-        height: 400px;
         position: relative;
-        border-radius: 12px;
         overflow: hidden;
-      
+        border: 1px solid #ececec;
+        cursor: pointer;
         img {
           width: 100%;
-          height: 100%;
-          object-fit: cover;
-          position: absolute;
-          inset: 0;
+          transition:  all 0.5s ease;
+          transform: scale(1.1);
         }
-      
+        &:hover img{
+          transform: scale(1);
+          transition:  all 0.5s ease;
+        }
+      &:hover .read-more{
+        background-color: $primary-color;
+        transition: all 0.5s ease;
+      }
+      &:hover .read-more a{
+        color: $white-color!important;
+        transition: all 0.5s ease;
+      }
         .overlay {
           position: absolute;
           top: 0;
@@ -372,27 +384,191 @@ p{
             }
           }
         }
+        .bolgs-img-div{
+          overflow: hidden;
+        }
+        .blogs-content{
+          padding: 15px;
+          background-color: $grey-color;
+          span{
+            font-family: $paragraph-font;
+            display: block;
+            margin-bottom: 10px;
+            color: $primary-color;
+            font-size: 14px;
+            font-weight: 500;
+          }
+          h4{
+            font-family: $heading-font;
+            color: $paragraph-color;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+        p{
+          @include common-para;
+          font-size: 15px;
+          line-height: 26px;
+          margin-bottom: 10px;
+          
+        }
+        button{
+          @include common-button;
+        }
+          }
+        }
       }
       .owl-nav {
         position: absolute;
         top: -100px;
         right: 0;
-      
-      
         button {
-          background: #fff !important;
+          background:$paragraph-color;
           width: 45px;
           height: 45px;
-          font-size: 25px !important;
+          font-size: 31px !important;
           box-shadow: 0px 0px 17px #00000005;
           border-radius: 50%;
-      
+          color: $white-color;
+          outline: none;
+          border: none;
+          transition: all 0.5s ease;
+        &:hover{
+          background-color: $primary-color;
+          transition: all 0.5s ease;
+        }
           &:nth-of-type(1) {
             margin-right: 13px;
+          }
+          span{
+            margin-top: -5px;
+            display: block;
           }
         }
       }
       
     }
   }
+
+
+
+
+/************************************************Home Career CSS************************************************/
+.home-career{
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+  .home-career-bg{
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 115%), url("../img/career-bg.webp");
+    background-attachment: fixed;
+  }
+  .home-career-content{
+    position: absolute;
+    bottom: 110px;
+    h2{
+      color: $white-color;
+      font-family: $heading-font;
+      font-size: 35px;
+    }
+    p{
+      @include common-para;
+      color: $white-color;
+      margin-top: 8px;
+      line-height: 26px;
+    }
+    button{
+      @include common-button;
+      margin-top: 25px;
+      background-color: $primary-color;
+      a{
+        color: $white-color;
+      }
+    }
+  }
+}
+
+
+
+.home-awards-achievements{
+width: 100%;
+margin: 0 auto;
+display: block;
+@include common-padding;
+background-color: #faf6f3;
+.awards-container{
+  width: 85%;
+  margin:  0 auto;
+  display: block;
+}
+.title{
+  font-family: $paragraph-font;
+  display: flex;
+	align-items: center;
+	white-space: nowrap;
+	justify-content:center;
+  color: $paragraph-color;
+  font-size: 20px;
+  font-weight: 400;
+  &:before {
+		content: "";
+		background-color: rgba(#000, .2);
+		height: 1px;
+		width: 4%;
+		margin-right: 1rem;
+	}
+  &:after {
+		content: "";
+		background-color: rgba(#000, .2);
+		height: 1px;
+		width: 4%;
+		margin-left: 1rem;
+	}
+}
+h4{
+  @include common-heading;
+    color: $primary-color;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.awards-achievements-grid{
+  margin-top: 65px;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 3em;
+  width: 100%;
+  .awards-box{
+    background-color:$white-color;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    img{
+      width: 22%;
+    }
+    h3{
+      font-size: 20px;
+      font-family: $paragraph-font;
+      color: $paragraph-color;
+      font-weight: 500; 
+      line-height: 26px;
+    }
+    span{
+      display: block;
+      font-family: $paragraph-font;
+      color: $paragraph-color;
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+}
 }

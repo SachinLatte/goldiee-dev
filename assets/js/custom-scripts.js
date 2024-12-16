@@ -98,9 +98,13 @@ $('.usp-counting').each(function() {
 //LATEST FROM GOLDIEE CAROUSEL
 $(".latest-from-goldiee").owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 15,
   nav: true,
-  autoplay:true,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  smartSpeed: 1500,
+  animateIn: 'linear',
+  animateOut: 'linear',
   responsive: {
     0: {
       items: 1
@@ -110,3 +114,31 @@ $(".latest-from-goldiee").owlCarousel({
     }
   }
 });
+
+
+//TRUNCATE PARAGRAPH
+let stringlength = 90;
+var elements1 = document.querySelectorAll('.truncate-para');
+for(let i = 0; i < elements1.length; i++){
+    let str1 = elements1[i].innerHTML;
+    if (str1.length > stringlength) {
+        str1 = str1.substring(0, stringlength),
+        str1.replace(/\w+$/, '');
+        str1 +='..';
+        elements1[i].innerHTML = str1;
+      }
+}
+
+//TRUNCATE HEADING
+let stringlength1 = 50;
+var elements1 = document.querySelectorAll('.truncate-heading');
+for(let i = 0; i < elements1.length; i++){
+    let str1 = elements1[i].innerHTML;
+    if (str1.length > stringlength1) {
+        str1 = str1.substring(0, stringlength1),
+        str1.replace(/\w+$/, '');
+        str1 +='..';
+        elements1[i].innerHTML = str1;
+      }
+}
+
