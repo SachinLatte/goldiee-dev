@@ -1,10 +1,16 @@
 footer{
   width: 100%;
-  @include common-padding;
+  padding: 4% 0 0 0;
   background-color: $footer-bg;
   .footer-navList{
     width: 100%;
     padding-left: 12%;
+    @include breakpoints(1600px){
+      padding-left: 10%;
+    }
+    @include breakpoints(1536px){
+      padding-left: 5%;
+    }
     ul{
       margin: 0;
       padding: 0;
@@ -29,10 +35,16 @@ footer{
   }
   .footer-contact-info{
     padding-left: 12%;
+    @include breakpoints(1600px){
+      padding-left: 10%;
+    }
+    @include breakpoints(1536px){
+      padding-left: 5%;
+    }
     span{
-      font-size: 18px;
+      font-size: 20px;
       font-family: $heading-font;
-      font-weight:500;
+      font-weight:600;
       color: $paragraph-color;
       margin-bottom: 12px;
       display: block;
@@ -42,13 +54,57 @@ footer{
       a{
         color:$paragraph-color;
         text-decoration: none;
-        margin-bottom: 3px;
+        margin-bottom: 8px;
         display: block;
         i{
           font-size: 17px;
           color: $primary-color;
-          margin-right: 5px;
         }
+      }
+    }
+  }
+  .footer-copyright{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .footer-social-media{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+        a{
+          color: $primary-color;
+          text-decoration: none;
+          i{
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+  .copyright{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: $heading-font;
+    li{
+      position: relative;
+      &:before{
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 15px;
+        background-color: $primary-color;
+        left: -14px;
+        top: 2px;
+      }
+      &:nth-child(1):before{
+        width: 0;
+      }
+      a{
+        color: $paragraph-color!important;
       }
     }
   }

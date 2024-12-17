@@ -31,7 +31,7 @@
             <h1 class="mb-2">We Give You Complete Control <br> Of Your Poultry Fields.</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <ul class="mt-4">
-              <li class="mb-2">
+              <li class="mb-4">
                 <div>
                   <h4 class="mb-1">Corporis voluptates</h4>
                   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur <br> laboris nisi ut aliquip </p>
@@ -220,7 +220,7 @@
   <div class="custom-container">
     <div class="home-career-content">
       <h2>Let's build the future together.</h2>
-      <p>Join a team of dedicated professionals committed <br> to a better tomorrow.</p>
+      <p>Join a team of dedicated professionals committed to <br> a better tomorrow.</p>
       <button class="btn read-more"><a href="javascript:void(0)">Come work with us</a></button>
     </div>
   </div>
@@ -283,7 +283,7 @@
         </div>
       </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4 mb-4">
       <div class="col-md-2">
 
       </div>
@@ -304,13 +304,33 @@
               </div>
               <div class="col-md-4">
                   <span>Office Address:</span>
-                  <p>Shubham Goldiee Masale (P) Ltd., Corporate Head office- "Goldiee House" 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) PIN-208022</p>
+                  <p>Shubham Goldiee Masale (P) Ltd., Corporate Head office - 'Goldiee House' 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) Pin - 208022</p>
               </div>
             </div>
         </div>
       </div>
     </div>
-    <hr>
+    <hr class="mb-0">
+    <div class="footer-copyright">
+      <div class="row">
+        <div class="col-md-6">
+            <ul class="footer-social-media">
+                <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul class="footer-social-media justify-content-end copyright">
+                <li>© <span id="currentYear"></span> Copyright Goldiee Group</li>
+                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                <li><a href="https://www.digitallatte.in/" target="_blank">Powered By : <strong>Digitallatte</strong></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
 <?php include 'tail.php' ?>

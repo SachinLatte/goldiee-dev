@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
   margin: 0;
   padding: 0;
@@ -73,10 +75,11 @@ img {
   margin: 0 7px;
 }
 .navigation-main .navbar-light .navbar-nav .nav-item .dropdown-item {
-  padding: 8px 14px 8px 14px;
+  padding: 9px 20px 9px 13px;
   margin: 0;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 500;
 }
 .navigation-main .navbar-light .navbar-nav .nav-item .dropdown-item:hover {
   color: #ffffff;
@@ -84,9 +87,9 @@ img {
   background-color: #832f40;
 }
 .navigation-main .navbar-light .navbar-nav .nav-item .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   transition: all 0.5s ease;
 }
@@ -108,12 +111,22 @@ img {
 
 footer {
   width: 100%;
-  padding: 4% 0;
+  padding: 4% 0 0 0;
   background-color: #FCFAF8;
 }
 footer .footer-navList {
   width: 100%;
   padding-left: 12%;
+}
+@media (max-width: 1600px) {
+  footer .footer-navList {
+    padding-left: 10%;
+  }
+}
+@media (max-width: 1536px) {
+  footer .footer-navList {
+    padding-left: 5%;
+  }
 }
 footer .footer-navList ul {
   margin: 0;
@@ -139,10 +152,20 @@ footer .footer-navList ul li:nth-child(1) {
 footer .footer-contact-info {
   padding-left: 12%;
 }
+@media (max-width: 1600px) {
+  footer .footer-contact-info {
+    padding-left: 10%;
+  }
+}
+@media (max-width: 1536px) {
+  footer .footer-contact-info {
+    padding-left: 5%;
+  }
+}
 footer .footer-contact-info span {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   color: #393939;
   margin-bottom: 12px;
   display: block;
@@ -158,13 +181,57 @@ footer .footer-contact-info p {
 footer .footer-contact-info p a {
   color: #393939;
   text-decoration: none;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   display: block;
 }
 footer .footer-contact-info p a i {
   font-size: 17px;
   color: #832f40;
-  margin-right: 5px;
+}
+footer .footer-copyright {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+footer .footer-copyright .footer-social-media {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+footer .footer-copyright .footer-social-media li {
+  list-style: none;
+}
+footer .footer-copyright .footer-social-media li a {
+  color: #832f40;
+  text-decoration: none;
+}
+footer .footer-copyright .footer-social-media li a i {
+  font-size: 19px;
+}
+footer .copyright {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+footer .copyright li {
+  position: relative;
+}
+footer .copyright li:before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: #832f40;
+  left: -14px;
+  top: 2px;
+}
+footer .copyright li:nth-child(1):before {
+  width: 0;
+}
+footer .copyright li a {
+  color: #393939 !important;
 }
 
 .hero-carousel-section {
@@ -186,9 +253,9 @@ footer .footer-contact-info p a i {
   width: 50%;
 }
 .hero-carousel-section .swiper-container .captions-box .slide-captions .current-title {
-  font-size: 48px;
+  font-size: 55px;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: left;
   margin-left: 45px;
   text-transform: uppercase;
@@ -199,18 +266,18 @@ footer .footer-contact-info p a i {
   width: 50%;
   float: left;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   z-index: 1111;
   top: 46%;
   text-align: right;
   text-transform: uppercase;
   text-align: right;
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 200;
 }
 .hero-carousel-section .swiper-container .captions-box .fixed-title:after {
   width: 5px;
-  height: 35px;
+  height: 43px;
   position: absolute;
   content: "";
   background-color: #ffffff;
@@ -237,17 +304,23 @@ footer .footer-contact-info p a i {
   padding: 4% 0;
 }
 .home-about-section h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #832f40;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 46px;
+}
+@media (max-width: 1536px) {
+  .home-about-section h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
 }
 .home-about-section .about-video-div {
   width: 100%;
   height: 100%;
-  background-image: url("../img/homepage__banner1.webp");
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 140%), url(../img/homepage__banner1.webp);
   background-size: cover;
   background-position: center center;
   border-radius: 25px;
@@ -336,10 +409,11 @@ footer .footer-contact-info p a i {
   margin-right: 15px;
 }
 .home-about-section .home-about-content ul li h4 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #832f40;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   position: relative;
+  font-weight: 600;
 }
 .home-about-section .home-about-content ul li h4:before {
   position: absolute;
@@ -367,19 +441,27 @@ footer .footer-contact-info p a i {
 .counter-stats {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #ffffff;
   background-color: #832f40;
   padding: 2% 0 2% 0;
 }
 .counter-stats h4 {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 100px;
   font-family: "Inter", serif;
+  font-family: "Nunito", sans-serif;
 }
 .counter-stats h5 {
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 17px;
+}
+@media (max-width: 1536px) {
+  .counter-stats h5 {
+    font-weight: 300;
+    font-size: 17px;
+  }
 }
 .counter-stats .stats {
   border-left: 1px solid #ffffff;
@@ -405,6 +487,11 @@ footer .footer-contact-info p a i {
   text-align: left;
   font-weight: 700;
 }
+@media (max-width: 1600px) {
+  .counter-stats .stats .usp-counting {
+    font-size: 70px;
+  }
+}
 
 /************************************************Home Our Brands CSS************************************************/
 .home-our-brands {
@@ -413,12 +500,18 @@ footer .footer-contact-info p a i {
   background-color: #f7f7f7;
 }
 .home-our-brands h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #832f40;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 46px;
+}
+@media (max-width: 1536px) {
+  .home-our-brands h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
 }
 .home-our-brands p {
   font-family: "Inter", serif;
@@ -429,12 +522,17 @@ footer .footer-contact-info p a i {
   font-weight: 400;
 }
 .home-our-brands .home-brands-grid {
-  margin-top: 65px;
+  margin-top: 50px;
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 0;
   width: 100%;
+}
+@media (max-width: 1600px) {
+  .home-our-brands .home-brands-grid {
+    margin-top: 40px;
+  }
 }
 .home-our-brands .home-brands-grid .home-brands {
   overflow: hidden;
@@ -471,8 +569,8 @@ footer .footer-contact-info p a i {
   left: 40px;
 }
 .home-our-brands .home-brands-grid .home-brands .home-brands-content h3 {
-  font-weight: 400;
-  font-family: "Inter", serif;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 5px;
   color: #ffffff;
 }
@@ -499,12 +597,18 @@ footer .footer-contact-info p a i {
   padding: 4% 0;
 }
 .home-blogs h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #832f40;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 46px;
+}
+@media (max-width: 1536px) {
+  .home-blogs h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item {
   width: 100%;
@@ -512,6 +616,9 @@ footer .footer-contact-info p a i {
   overflow: hidden;
   border: 1px solid #ececec;
   cursor: pointer;
+}
+.home-blogs .home-blog-carousel .latest-from-goldiee .item:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item img {
   width: 100%;
@@ -573,12 +680,17 @@ footer .footer-contact-info p a i {
   font-weight: 500;
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #393939;
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28px;
   margin-bottom: 10px;
+}
+@media (max-width: 1600px) {
+  .home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content h4 {
+    font-size: 18px;
+  }
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content p {
   font-family: "Inter", serif;
@@ -594,11 +706,11 @@ footer .footer-contact-info p a i {
 .home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content button {
   border-radius: 50px;
   border: 1px solid #832f40;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Inter", serif;
   outline: none;
   transition: all 0.5s ease;
-  padding: 6px 8px;
+  padding: 7px 10px;
 }
 .home-blogs .home-blog-carousel .latest-from-goldiee .item .blogs-content button:focus {
   box-shadow: none;
@@ -614,7 +726,7 @@ footer .footer-contact-info p a i {
   right: 0;
 }
 .home-blogs .home-blog-carousel .owl-nav button {
-  background: #393939;
+  background: #832f40;
   width: 45px;
   height: 45px;
   font-size: 31px !important;
@@ -626,7 +738,7 @@ footer .footer-contact-info p a i {
   transition: all 0.5s ease;
 }
 .home-blogs .home-blog-carousel .owl-nav button:hover {
-  background-color: #832f40;
+  background-color: #393939;
   transition: all 0.5s ease;
 }
 .home-blogs .home-blog-carousel .owl-nav button:nth-of-type(1) {
@@ -657,7 +769,7 @@ footer .footer-contact-info p a i {
 }
 .home-career .home-career-content h2 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 35px;
 }
 .home-career .home-career-content p {
@@ -674,13 +786,14 @@ footer .footer-contact-info p a i {
 .home-career .home-career-content button {
   border-radius: 50px;
   border: 1px solid #832f40;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Inter", serif;
   outline: none;
   transition: all 0.5s ease;
-  padding: 6px 8px;
+  padding: 7px 10px;
   margin-top: 25px;
   background-color: #832f40;
+  font-size: 16px;
 }
 .home-career .home-career-content button:focus {
   box-shadow: none;
@@ -731,10 +844,10 @@ footer .footer-contact-info p a i {
   margin-left: 1rem;
 }
 .home-awards-achievements h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #832f40;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 46px;
   color: #832f40;
@@ -742,6 +855,12 @@ footer .footer-contact-info p a i {
   font-size: 27px;
   text-align: center;
   line-height: 40px;
+}
+@media (max-width: 1536px) {
+  .home-awards-achievements h4 {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
 }
 .home-awards-achievements .awards-achievements-grid {
   margin-top: 65px;
@@ -762,12 +881,22 @@ footer .footer-contact-info p a i {
 .home-awards-achievements .awards-achievements-grid .awards-box img {
   width: 22%;
 }
+@media (max-width: 1600px) {
+  .home-awards-achievements .awards-achievements-grid .awards-box img {
+    width: 20%;
+  }
+}
 .home-awards-achievements .awards-achievements-grid .awards-box h3 {
   font-size: 20px;
   font-family: "Inter", serif;
   color: #393939;
   font-weight: 500;
   line-height: 26px;
+}
+@media (max-width: 1600px) {
+  .home-awards-achievements .awards-achievements-grid .awards-box h3 {
+    font-size: 19px;
+  }
 }
 .home-awards-achievements .awards-achievements-grid .awards-box span {
   display: block;

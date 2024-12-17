@@ -4,6 +4,7 @@ var mySwiper = new Swiper('.swiper-container', {
   autoplay: true,
   parallax: true,
   effect: "fade",
+  direction: 'horizontal',
 // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -100,7 +101,7 @@ $(".latest-from-goldiee").owlCarousel({
   loop: true,
   margin: 15,
   nav: true,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 3000,
   smartSpeed: 1500,
   animateIn: 'linear',
@@ -110,6 +111,12 @@ $(".latest-from-goldiee").owlCarousel({
       items: 1
     },
     600: {
+      items: 2
+    },
+    1536: {
+      items: 3
+    },
+    1600: {
       items: 4
     }
   }
@@ -141,4 +148,10 @@ for(let i = 0; i < elements1.length; i++){
         elements1[i].innerHTML = str1;
       }
 }
+
+
+//COPYRIGHT CURRENT YEAR
+let data = new Date();
+let currentYear = document.querySelector('#currentYear');
+currentYear.innerText = data.getFullYear();
 
