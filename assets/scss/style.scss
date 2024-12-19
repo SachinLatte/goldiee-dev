@@ -32,6 +32,9 @@
           margin-left: 45px;
           text-transform: uppercase;
           font-weight: 700;
+          @include breakpoints(1470px){
+            font-size: 50px;
+          }
         }
       }
       .fixed-title{
@@ -55,6 +58,13 @@
           background-color: $white-color;
           right: -24px;
           top: 11px;
+          @include breakpoints(1470px){
+            width: 4px;
+            height: 36px;
+          }
+        }
+        @include breakpoints(1470px){
+          font-size: 50px;
         }
       }
     }
@@ -67,6 +77,9 @@
       position: relative;
       img{
         width: 100%;
+        @include breakpoints(1470px){
+          width: 117%;
+        }
       }
     }
   }
@@ -314,6 +327,9 @@ p{
         font-family: $heading-font;
         margin-bottom: 5px;
         color: $white-color;
+        @include breakpoints(1536px){
+          font-size: 25px;
+        }
       }
       span{
         display: flex;
@@ -345,7 +361,7 @@ p{
         width: 100%;
         position: relative;
         overflow: hidden;
-        border: 1px solid #ececec;
+        border: 1px solid #fff9f9;
         cursor: pointer;
         &:hover {
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -360,12 +376,14 @@ p{
           transition:  all 0.5s ease;
         }
       &:hover .read-more{
-        background-color: $primary-color;
+        background-color: transparent;
         transition: all 0.5s ease;
+        
       }
       &:hover .read-more a{
-        color: $white-color!important;
+        color: $primary-color!important;
         transition: all 0.5s ease;
+        background-color: transparent;
       }
         .overlay {
           position: absolute;
@@ -408,7 +426,7 @@ p{
         }
         .blogs-content{
           padding: 15px;
-          background-color: $grey-color;
+          background-color: #fff9f9;
           span{
             font-family: $paragraph-font;
             display: block;
@@ -600,4 +618,81 @@ h4{
     }
   }
 }
+}
+
+
+
+
+/************************************************Scroll To Top CSS************************************************/
+
+.back-to-top {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: $white-color;
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	color: transparent;
+	clear: both;
+	visibility: hidden;
+	position: fixed;
+	cursor: pointer;
+	display: block;
+	border: none;
+	right: 50px;
+	bottom: 75px;
+	font-size: 0px;
+	outline: 0 !important;
+	z-index: 99;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	&::after {
+		border-bottom-color: $white-color;
+		position: relative;
+		top: -24px;
+	}
+	&.show {
+		display: block;
+		background: $white-color;
+		color: $primary-color;
+		font-size: 25px;
+		right: 25px;
+		bottom: 50px;
+		height: 47px;
+		width: 47px;
+		visibility: visible;
+		box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+		-webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		&:active {
+			box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+			-webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+			-moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+		}
+	}
+  i{
+    font-size: 20px;
+  }
+}
+.back-to-top::before,
+.back-to-top::after {
+	content: "";
+	display: block;
+	vertical-align: middle;
+	border-bottom: solid 10px $primary-color;
+	line-height: 0;
+	height: 0;
+	width: 0;
+	border-radius: 20px;
+	visibility: hidden;
+}
+.back-to-top.show::after,
+.back-to-top.show::before {
+	visibility: visible;
 }

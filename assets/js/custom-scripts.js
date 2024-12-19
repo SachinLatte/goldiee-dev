@@ -113,6 +113,9 @@ $(".latest-from-goldiee").owlCarousel({
     600: {
       items: 2
     },
+    1470: {
+      items: 3
+    },
     1536: {
       items: 3
     },
@@ -154,4 +157,23 @@ for(let i = 0; i < elements1.length; i++){
 let data = new Date();
 let currentYear = document.querySelector('#currentYear');
 currentYear.innerText = data.getFullYear();
+
+
+
+//SROLL TO TOP BUTTON
+var amountScrolled = 200;
+var amountScrolledNav = 25;
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('.back-to-top').addClass('show');
+  } else {
+    $('.back-to-top').removeClass('show');
+  }
+});
+$('.back-to-top').click(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 800);
+  return false;
+});
 

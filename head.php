@@ -20,3 +20,4 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<button class="back-to-top" type="button"><i class="fa-solid fa-chevron-up"></i></button>
