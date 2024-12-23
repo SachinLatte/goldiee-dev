@@ -696,3 +696,201 @@ h4{
 .back-to-top.show::before {
 	visibility: visible;
 }
+
+/************************************************Breadcrumb CSS************************************************/
+
+.bread-crumb {
+  padding: 15px 0;
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			float: left;
+			padding: 0 10px;
+			position: relative;
+      list-style: none;
+			& + ::before {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 8px;
+				left: -4px;
+				background: url("../img/right_arrow.png");
+				background-size: 30%;
+				height: 22px;
+				width: 22px;
+				background-repeat: no-repeat;
+			}
+			&:nth-child(1) {
+				padding-left: 0;
+			}
+		}
+	}
+	li {
+		a {
+			font-size: 14px;
+			line-height: 19px;
+			color: $paragraph-color;
+			font-family: $heading-font;
+			font-weight: 500;
+			text-decoration: none;
+			transition: all 0.5s ease;
+			&.active {
+				color: $primary-color;
+				font-weight: 500 !important;
+			}
+			&:hover {
+				color: $primary-color;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+}
+
+/************************************************Our Story Page CSS************************************************/
+.our-story-head-section{
+@include top-divider;
+}
+.our-story-div{
+  width: 100%;
+  background-color: $bg-color;
+  @include common-padding;
+  .section-content{
+    .wt-half-left-outer {
+      margin-bottom: 50px;
+      background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 140%), url('../img/half-part.webp');
+      background-size:cover;
+      .wt-half-left {
+        position: relative;
+        height: 500px;
+         img {
+          position: absolute;
+          right: -50px;
+          bottom: -100px;
+          z-index: 1;
+          width: 18%;
+          filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+      }
+    }
+  }
+  .wt-half-right-outer{
+    background-color: #faf6f3;
+    .wt-half-right {
+      width: 700px;
+      float: left;
+      padding: 60px;
+      .section-head {
+        margin-bottom: 30px;
+        .wt-title-small {
+          position: relative;
+          display: inline-block;
+          margin-top: 0px;
+          font-family: $paragraph-font;
+          font-size: 18px;
+          font-weight: 500;
+          color: $primary-color;
+          &:after {
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: 2px;
+            background-color: $primary-color;
+            right: -60px;
+            top: 9px;
+        }
+      }
+      h2{
+        font-family: $heading-font;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 42px;
+      }
+      p{
+        @include common-para;
+      }
+    }
+    .project-counter{
+      color: $primary-color;
+      font-family: $paragraph-font;
+      font-size:40px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    h4{
+      font-family: $heading-font;
+      font-size: 15px;
+      color: $paragraph-color;
+      font-weight: 800;
+    }
+  }
+  }
+  }
+}
+.our-story-vision{
+  width: 100%;
+  background-color: $bg-color;
+  @include common-padding;
+  .our-story-vision-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    img.divider-img{
+      width: 1%;
+    }
+    h1{
+      font-family: $heading-font;
+      font-size: 40px;
+      color: $paragraph-color;
+      font-weight: 700;
+    }
+    h2{
+      font-family: $paragraph-font;
+      font-size: 60px;
+      color: $primary-color;
+      font-weight: 500;
+      span{
+        font-size: 110px;
+        font-weight: 700;
+      }
+    }
+    p{
+      @include common-para;
+    }
+    .story-founder-box{
+      width: 100%;
+      margin-top: 100px;
+      .story-founder-info{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 30px;
+        h1{
+          font-family: $paragraph-font;
+          font-weight: 500;
+          font-size: 60px;
+          text-align: right;
+          color: $paragraph-color;
+          line-height: 70px;
+        }
+        p{
+          text-align: right;
+          font-family: $heading-font;
+          font-size: 26px;
+          color: $primary-color;
+          font-weight: 600;
+          line-height: 38px;
+        }
+      }
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+.top-breadcrumb{
+  width: 100%;
+  background-color: $bg-color;
+}
