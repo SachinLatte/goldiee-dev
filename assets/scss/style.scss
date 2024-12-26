@@ -214,6 +214,84 @@ background-color:#fff;
       @include common-para;
     }
   }
+
+  .about-us__media-video-wrapper{
+    position: relative;
+    .about-us__media {
+      overflow: hidden;
+      border-radius: 70px 0px;
+      border: 6px solid var(--rr-common-white);
+      img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+  }
+.popup-video {
+    top: 50%;
+    display: block;
+    z-index: 2;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+     .icon {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-radius: 500px;
+      background: var(--rr-common-white);
+      width: 66.67px;
+      height: 66.67px;
+       svg {
+        margin-left: 6px;
+        margin-top: 2px;
+    }
+  }
+}
+  }
+  .clip-a-z {
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    -webkit-animation: clip-a-z 1s;
+    animation: clip-a-z 1s;
+    -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.about-us__media {
+  overflow: hidden;
+  border-radius: 70px 0px;
+  border: 6px solid var(--rr-common-white);
+  img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+}
+.clip-a-z {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-animation: clip-a-z 1s;
+  animation: clip-a-z 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
 }
 
 .counter-stats{
@@ -684,7 +762,6 @@ h4{
 .back-to-top::after {
 	content: "";
 	display: block;
-	vertical-align: middle;
 	border-bottom: solid 10px $primary-color;
 	line-height: 0;
 	height: 0;
@@ -840,7 +917,7 @@ h4{
     }
     h1{
       font-family: $heading-font;
-      font-size: 40px;
+      font-size: 28px;
       color: $paragraph-color;
       font-weight: 700;
     }
@@ -893,4 +970,66 @@ h4{
 .top-breadcrumb{
   width: 100%;
   background-color: $bg-color;
+}
+
+/************************************************Mission Vision Page CSS************************************************/
+.mission-vision-div{
+  width: 100%;
+  @include after-breadcrumb-padding;
+  background-color: $white-color;
+  h2{
+    font-family: $heading-font;
+    color: $paragraph-color;
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .mission-vision-grid{
+    margin-top: 80px;
+    .badge{
+      display: inline-block;
+      padding: 10px 14px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      border-radius: 50px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $heading-font;
+
+    }
+    .badge-secondary{
+        background-color: $paragraph-color;
+    }
+    h4{
+      font-family: $heading-font;
+      font-size: 30px;
+      color: $primary-color;
+      font-weight: 700;
+    }
+    p{
+      @include common-para;
+    }
+    .mission-vision-grid-content{
+      border-left: 1px solid $primary-color;
+      padding: 0 25px 25px 25px;
+      position: relative;
+      &:after{
+        position:absolute;
+        width: 80px;
+        height: 1px;
+        content: "";
+        left: 0;
+        bottom: 0;
+        background-color: $primary-color;
+      }
+    }
+  }
 }

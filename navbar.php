@@ -17,7 +17,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="our-story.php">Our Story</a>
               <a class="dropdown-item" href="javascript:void(0)">Legacy & Leadership</a>
-              <a class="dropdown-item" href="javascript:void(0)">Mission / Vision</a>
+              <a class="dropdown-item" href="mission-vision.php">Mission / Vision</a>
               <a class="dropdown-item" href="javascript:void(0)">Milestones</a>
               <a class="dropdown-item" href="javascript:void(0)">CSR</a>
             </div>

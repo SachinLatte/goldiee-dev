@@ -465,6 +465,82 @@ footer .copyright li a {
   text-align: left;
   font-weight: 400;
 }
+.home-about-section .about-us__media-video-wrapper {
+  position: relative;
+}
+.home-about-section .about-us__media-video-wrapper .about-us__media {
+  overflow: hidden;
+  border-radius: 70px 0px;
+  border: 6px solid var(--rr-common-white);
+}
+.home-about-section .about-us__media-video-wrapper .about-us__media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.home-about-section .about-us__media-video-wrapper .popup-video {
+  top: 50%;
+  display: block;
+  z-index: 2;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.home-about-section .about-us__media-video-wrapper .popup-video .icon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 500px;
+  background: var(--rr-common-white);
+  width: 66.67px;
+  height: 66.67px;
+}
+.home-about-section .about-us__media-video-wrapper .popup-video .icon svg {
+  margin-left: 6px;
+  margin-top: 2px;
+}
+.home-about-section .clip-a-z {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-animation: clip-a-z 1s;
+  animation: clip-a-z 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.home-about-section .about-us__media {
+  overflow: hidden;
+  border-radius: 70px 0px;
+  border: 6px solid var(--rr-common-white);
+}
+.home-about-section .about-us__media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.home-about-section .clip-a-z {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-animation: clip-a-z 1s;
+  animation: clip-a-z 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
 
 .counter-stats {
   display: flex;
@@ -1024,7 +1100,6 @@ footer .copyright li a {
 .back-to-top::after {
   content: "";
   display: block;
-  vertical-align: middle;
   border-bottom: solid 10px #832f40;
   line-height: 0;
   height: 0;
@@ -1187,7 +1262,7 @@ footer .copyright li a {
 }
 .our-story-vision .our-story-vision-box h1 {
   font-family: "Nunito", sans-serif;
-  font-size: 40px;
+  font-size: 28px;
   color: #393939;
   font-weight: 700;
 }
@@ -1244,6 +1319,72 @@ footer .copyright li a {
 .top-breadcrumb {
   width: 100%;
   background-color: #faf6f3;
+}
+
+/************************************************Mission Vision Page CSS************************************************/
+.mission-vision-div {
+  width: 100%;
+  padding: 3% 0 4% 0;
+  background-color: #ffffff;
+}
+.mission-vision-div h2 {
+  font-family: "Nunito", sans-serif;
+  color: #393939;
+  font-size: 25px;
+  line-height: 38px;
+}
+.mission-vision-div .mission-vision-grid {
+  margin-top: 80px;
+}
+.mission-vision-div .mission-vision-grid .badge {
+  display: inline-block;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+.mission-vision-div .mission-vision-grid .badge-secondary {
+  background-color: #393939;
+}
+.mission-vision-div .mission-vision-grid h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #832f40;
+  font-weight: 700;
+}
+.mission-vision-div .mission-vision-grid p {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: #393939;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
+}
+.mission-vision-div .mission-vision-grid .mission-vision-grid-content {
+  border-left: 1px solid #832f40;
+  padding: 0 25px 25px 25px;
+  position: relative;
+}
+.mission-vision-div .mission-vision-grid .mission-vision-grid-content:after {
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-color: #832f40;
 }
 
 /*# sourceMappingURL=style.css.map */
