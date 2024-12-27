@@ -2,7 +2,7 @@
   font-family: $heading-font;
   color: $primary-color;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: capitalize;
   line-height: 46px;
   @include breakpoints(1536px){
@@ -30,11 +30,11 @@
 @mixin common-button{
     border-radius: 50px;
     background-color: $primary-color;
-    font-size: 14px;
+    font-size: 13px;
     font-family: $paragraph-font;
     outline: none;
     transition: all 0.5s ease;
-    padding: 7px 10px;
+    padding: 6px 8px;
     border: 1px solid $primary-color;
     &:focus{
       box-shadow:none;
@@ -43,6 +43,9 @@
       text-decoration: none;
       color: $white-color;
       transition: all 0.5s ease;
+    }
+    &:hover{
+      color: $white-color;
     }
 }
 
@@ -54,4 +57,10 @@
 
 @mixin after-breadcrumb-padding{
   padding: 3% 0 4% 0; 
+}
+
+@mixin counter-container{
+  max-width: 1320px;
+  margin: 0 auto;
+  display: block;
 }

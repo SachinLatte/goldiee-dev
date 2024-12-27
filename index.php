@@ -16,34 +16,162 @@
     <div class="swiper-pagination"></div>
 </div>
 </section>  
+<section class="counter-stats">
+	<!-- <div class="custom-container">
+    <h4>Goldiee Group at a glance</h4>
+		<div class="row no-gutters">
+			<div class="col-3 stats pl-4">
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="90">0</div>
+          <span>+</span>
+        </div>
+				<h5>NUMBER OF TEACHERS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="7000">0</div>
+        </div>
+				<h5>NUMBER OF SCHOOLS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="240">0</div>
+          <span>+</span>
+        </div>
+				<h5>NUMBER OF STUDENTS</h5>
+			</div>
+			<div class="col-3 stats pl-4">
+        <div class="stats-count">
+				  <div class="usp-counting" data-count="1800">0</div>
+        </div>
+				<h5>NUMBER OF PARENTS</h5>
+			</div>
+		</div>
+	</div> -->
+  <div class="counter-one__wrap">
+                <div class="counter-container">
+                    <div class="row">
+                        <div class="col-xl-6 wow fadeInLeft animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInLeft;">
+                            <div class="counter-one__left">
+                                <div class="section-title text-left">
+                                    <div class="section-title__tagline-box">
+                                        <span class="section-title__tagline">number talks</span>
+                                    </div>
+                                    <h2 class="section-title__title"><span>The Foundation</span> of Authentic Indian Flavors</h2>
+                                </div>
+                                <p class="counter-one__text">The administrative office and production hub of Goldieeis located at kanpur. Goldiee has spacious, sophisticated and ultra hygienic plants spread over a span of 56400 sq. yards. The finest of Indian machines with a cleaning and processing capacity of more than 60,000 kilograms every day, work to meet the global spice market demands.</p>
+                                <div class="counter-one__need-help">
+                                    <div class="icon">
+                                        <span class="icon-call"><i class="fa-solid fa-phone"></i></span>
+                                    </div>
+                                    <div class="content">
+                                        <p>Need help?</p>
+                                        <h4><a href="tel:8085550111">(808) 555-0111</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="counter-one__right">
+                                <div class="row">
+                                    <!--Counter One Single Start-->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInLeft;">
+                                        <div class="counter-one__single">
+                                            <div class="counter-one__icon-and-count-box">
+                                                <div class="counter-one__icon">
+                                                    <span class="icon-setting"><i class="fa-regular fa-snowflake"></i></span>
+                                                </div>
+                                                <div class="counter-one__count count-box counted">
+                                                    <h3 class="count-text usp-counting" data-count="1980">0</h3>
+                                                </div>
+                                            </div>
+                                            <p>Since</p>
+                                        </div>
+                                    </div>
+                                    <!--Counter One Single End-->
+                                    <!--Counter One Single Start-->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+                                        <div class="counter-one__single">
+                                            <div class="counter-one__icon-and-count-box">
+                                                <div class="counter-one__icon">
+                                                    <span class="icon-wall"><i class="fa-regular fa-snowflake"></i></span>
+                                                </div>
+                                                <div class="counter-one__count count-box counted">
+                                                    <h3 class="count-text usp-counting" data-count="200">0</h3>
+                                                </div>
+                                            </div>
+                                            <p>Different Industries</p>
+                                        </div>
+                                    </div>
+                                    <!--Counter One Single End-->
+                                    <!--Counter One Single Start-->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft;">
+                                        <div class="counter-one__single">
+                                            <div class="counter-one__icon-and-count-box">
+                                                <div class="counter-one__icon">
+                                                    <span class="icon-robotic-arm"><i class="fa-regular fa-snowflake"></i></span>
+                                                </div>
+                                                <div class="counter-one__count count-box counted">
+                                                <h3 class="count-text usp-counting" data-count="50">0</h3>
+                                                </div>
+                                            </div>
+                                            <p>Products</p>
+                                        </div>
+                                    </div>
+                                    <!--Counter One Single End-->
+                                    <!--Counter One Single Start-->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight animated" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInRight;">
+                                        <div class="counter-one__single">
+                                            <div class="counter-one__icon-and-count-box">
+                                                <div class="counter-one__icon">
+                                                    <span class="icon-engineer"><i class="fa-regular fa-snowflake"></i></span>
+                                                </div>
+                                                <div class="counter-one__count count-box counted">
+                                                <h3 class="count-text usp-counting" data-count="157">0</h3>
+                                                </div>
+                                            </div>
+                                            <p>Export Countries</p>
+                                        </div>
+                                    </div>
+                                    <!--Counter One Single End-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  </div>
+</section>
+<section class="cta-one">
+    <div class="counter-container">
+        <div class="cta-one__inner">
+            <div class="cta-one__img-one">
+                <img src="assets/img/machine.webp" alt="">
+            </div>
+            <div class="cta-one__content">
+                <h3 class="cta-one__title">Goldiee Group signifies the epitome of <br> quality and company's principles as <br> foreseen by its founders</h3>
+                <div class="cta-one__btn-box">
+                <a href="javascript:void(0)" class="cta-one__btn thm-btn-two">Contact Us<span class="icon-dubble-arrow-right"></span></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="home-about-section">
-  <div class="custom-container">
-    <!-- <div class="row">
+  <!-- <div class="custom-container">
+    <div class="row">
       <div class="col-md-5">
           <div class="about-video-div">
           <div class="play-box text-lg-end text-center" style="visibility: visible;" id="about-video">
                 <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok" class="video-popup" target="_blank"><i class="fa-solid fa-play"></i></a>
           </div>
           </div>
-          <div class="row">
-              <div class="col-md-6">
-                  <img src="assets/img/homepage__banner1.webp" alt="">
-              </div>
-              <div class="col-md-6">
-                  <img src="assets/img/homepage__banner2.webp" alt="">
-              </div>
-            </div>
       </div>
       <div class="col-md-7">
         <div class="home-about-content">
-            <h1 class="mb-2">We Give You Complete Control <br> Of Your Poultry Fields.</h1>
-            <p>As part of diversification into the processed food business, “OneOne” brand was launched by Goldiee Group. Noodles, Pasta and Macaroni are the products under the processed food brand. <br> <br>
-
-            The Pooja Kit is another foray among our diversifications. One can find Incense sticks, yarn, dhoop, roli, among the popular products. <br><br>
-
-            Our far and wide reach has made us a unique and popular brand name not just in India but in international markets as well. With our products already reaching out to more than 350,000 retail outlets managed by 1000 distributors across the country, we still strive to expand both geographically and strategically. We cater to a varied range of selling formats right from the kirana stores, general stores, modern trade outlets, multi-functional outlets, cash & carry outlets and canteens. <br><br>
-
-            Being the market leader, Goldiee prides itself on the diverse range of products that we offer like Pickles, Spices, Asafoetida (Heeng), Blended Spices, Papads, Curry Pastes, Curry Powders, Ready to Cook Spice Mixes, Vermicelli, Sauces, Jams, Tea, Gulab Jamun Mix, Pooja Kits, Incense Sticks etc.</p>
+            <h1 class="mb-2">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
+            <p>As part of diversification into the processed food business, “OneOne” brand was launched by Goldiee Group. Noodles, Pasta and Macaroni are the products under the processed food brand.</p>
+              <br>
+            <p>The Pooja Kit is another foray among our diversifications. One can find Incense sticks, yarn, dhoop, roli, among the popular products. </p>
             <ul class="mt-4">
               <li class="mb-4">
                 <div>
@@ -61,114 +189,27 @@
             </ul>
         </div>
       </div>
-    </div> -->
-    <div class="row align-items-center flex-column-reverse flex-xl-row">
-                <div class="col-xl-6">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6">
-                            <div class="about-us__media-video-wrapper mb-xs-30 wow clip-a-z" style="visibility: visible; animation-name: clip-a-z;">
-                                <div class="about-us__media img3">
-                                    <img src="assets/img/about-media-3.jpg" alt="">
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=mbwuj58UEPg" class="popup-video" data-effect="mfp-move-from-top vertical-middle">
-                                    <div class="icon">
-                                        <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18.833 10.1341C19.4997 10.519 19.4997 11.4812 18.833 11.8661L1.83301 21.6811C1.16634 22.066 0.333008 21.5848 0.333008 20.815V1.18513C0.333008 0.415326 1.16634 -0.0657985 1.83301 0.319102L18.833 10.1341Z" fill="#15181B"></path>
-                                        </svg>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="about-us__media img1 mb-30 wow clip-a-z" style="visibility: visible; animation-name: clip-a-z;">
-                                <img src="assets/img/about-media-1.jpg" alt="">
-                            </div>
-                            <div class="about-us__media-circle__wraper">
-                                <div class="about-us__media img2 wow clip-a-z" style="visibility: visible; animation-name: clip-a-z;">
-                                    <img src="assets/img/about-media-2.jpg" alt="">
-                                </div>
-                                <div class="about-us__box">
-                                    <div class="circle">
-                                        <div class="logo">
-                                            <img src="assets/imgs/about-us/25-experice.svg" alt="">
-                                        </div>
-                                        <div class="c-text"><span style="transform:rotate(0deg)">.</span><span style="transform:rotate(7.5deg)">2</span><span style="transform:rotate(15deg)">5</span><span style="transform:rotate(22.5deg)"> </span><span style="transform:rotate(30deg)">Y</span><span style="transform:rotate(37.5deg)">E</span><span style="transform:rotate(45deg)">A</span><span style="transform:rotate(52.5deg)">R</span><span style="transform:rotate(60deg)">S</span><span style="transform:rotate(67.5deg)"> </span><span style="transform:rotate(75deg)">O</span><span style="transform:rotate(82.5deg)">F</span><span style="transform:rotate(90deg)"> </span><span style="transform:rotate(97.5deg)">E</span><span style="transform:rotate(105deg)">X</span><span style="transform:rotate(112.5deg)">P</span><span style="transform:rotate(120deg)">E</span><span style="transform:rotate(127.5deg)">R</span><span style="transform:rotate(135deg)">I</span><span style="transform:rotate(142.5deg)">E</span><span style="transform:rotate(150deg)">N</span><span style="transform:rotate(157.5deg)">C</span><span style="transform:rotate(165deg)">E</span><span style="transform:rotate(172.5deg)"> </span><span style="transform:rotate(180deg)">.</span><span style="transform:rotate(187.5deg)">2</span><span style="transform:rotate(195deg)">5</span><span style="transform:rotate(202.5deg)"> </span><span style="transform:rotate(210deg)">Y</span><span style="transform:rotate(217.5deg)">E</span><span style="transform:rotate(225deg)">A</span><span style="transform:rotate(232.5deg)">R</span><span style="transform:rotate(240deg)">S</span><span style="transform:rotate(247.5deg)"> </span><span style="transform:rotate(255deg)">O</span><span style="transform:rotate(262.5deg)">F</span><span style="transform:rotate(270deg)"> </span><span style="transform:rotate(277.5deg)">E</span><span style="transform:rotate(285deg)">X</span><span style="transform:rotate(292.5deg)">P</span><span style="transform:rotate(300deg)">E</span><span style="transform:rotate(307.5deg)">R</span><span style="transform:rotate(315deg)">I</span><span style="transform:rotate(322.5deg)">E</span><span style="transform:rotate(330deg)">N</span><span style="transform:rotate(337.5deg)">C</span><span style="transform:rotate(345deg)">E</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="section__title-wrapper text-center text-xl-start pl-30 rr-pl-none-lg rr-mb-60-lg">
-                        <span class="section__subtitle justify-content-start mb-13" style="margin-left: 50px;"><span data-width="40px" class="left-separetor" style="width: 37px; opacity: 1;"></span>About Us</span>
-                        <h2 class="section__title title-animation text-capitalize mb-15 mb-xs-10 rr-br-hidden-md" data-cursor="-opaque" style="perspective: 100px;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 16.4453px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">A</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 105.148px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Company</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 26.6953px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">To</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 82.6875px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Change</div> <br> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 41.2578px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;"> The</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 68.2812px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">World</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 63.5078px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">We're</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 70.8281px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Driller</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 113.406px 29px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Industrial.</div></h2>
-                        <p class="mb-45 mb-xs-30">Proactively pontificate client-centered relationships vis-a-vis process centric leadership skills. Credibly maintain focused internal or “organic” sources rather than vertical alignments.</p>
-
-                        <ul class="about-us__list mb-25">
-                            <li><span><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.002 1L5.22195 11L1.00195 6.5" stroke="#F44E19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                                Market Research
-                            </li>
-                            <li><span><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.002 1L5.22195 11L1.00195 6.5" stroke="#F44E19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                                Industrial manufacturing
-                            </li>
-                            <li><span><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.002 1L5.22195 11L1.00195 6.5" stroke="#F44E19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                                Pre-construction services
-                            </li>
-                            <li><span><svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.002 1L5.22195 11L1.00195 6.5" stroke="#F44E19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                                Building and construction
-                            </li>
-                        </ul>
-
-                        <a href="about-us.html" class="rr-btn">
-                            <span class="btn-wrap">
-                                <span class="text-one">More About Us</span>
-                                <span class="text-two">More About Us</span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-  </div>
+    </div>
+  </div> -->
+  <div class="row no-gutters">
+      <div class="col-md-5">
+          <div class="about-video-div">
+          <div class="play-box text-lg-end text-center" style="visibility: visible;" id="about-video">
+                <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok" class="video-popup" target="_blank"><i class="fa-solid fa-play"></i></a>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-7">
+        <div class="home-about-content">
+            <h1 class="mb-2">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
+            <p>As part of diversification into the processed food business, “OneOne” brand was launched by Goldiee Group. Noodles, Pasta and Macaroni are the products under the processed food brand.</p>
+              <br>
+            <p>The Pooja Kit is another foray among our diversifications. One can find Incense sticks, yarn, dhoop, roli, among the popular products. </p>
+        </div>
+      </div>
+    </div>
 </section>
-<section class="counter-stats">
-	<div class="custom-container">
-    <h4>Goldiee Group at a glance</h4>
-		<div class="row no-gutters">
-			<div class="col-3 stats pl-4">
-				<!-- <i class="fa fa-user" aria-hidden="true"></i> -->
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="90">0</div>
-          <span>+</span>
-        </div>
-				<h5>NUMBER OF TEACHERS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-				<!-- <i class="fa fa-building" aria-hidden="true"></i> -->
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="7000">0</div>
 
-        </div>
-				<h5>NUMBER OF SCHOOLS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-				<!-- <i class="fa fa-graduation-cap" aria-hidden="true"></i> -->
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="240">0</div>
-          <span>+</span>
-        </div>
-				<h5>NUMBER OF STUDENTS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="1800">0</div>
-        </div>
-				<h5>NUMBER OF PARENTS</h5>
-			</div>
-
-		</div>
-	</div>
-</section>
 <section class="home-our-brands">
   <div class="custom-container">
     <h1 class="mb-2">Our Brands</h1>
@@ -239,7 +280,7 @@
     <div class="owl-carousel latest-from-goldiee owl-theme">
     <div class="item">
       <div class="bolgs-img-div">
-        <img src="assets/img/blog.webp" alt="Great Britain">
+        <img src="assets/img/blog1.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
@@ -250,7 +291,7 @@
     </div>
     <div class="item">
       <div class="bolgs-img-div">
-        <img src="assets/img/blog.webp" alt="Great Britain">
+        <img src="assets/img/blog2.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
@@ -261,7 +302,7 @@
     </div>
     <div class="item">
       <div class="bolgs-img-div">
-        <img src="assets/img/blog.webp" alt="Great Britain">
+        <img src="assets/img/blog3.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
@@ -272,7 +313,7 @@
     </div>
     <div class="item">
       <div class="bolgs-img-div">
-        <img src="assets/img/blog.webp" alt="Great Britain">
+        <img src="assets/img/blog4.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
@@ -283,7 +324,7 @@
     </div>
     <div class="item">
       <div class="bolgs-img-div">
-        <img src="assets/img/blog.webp" alt="Great Britain">
+        <img src="assets/img/blog5.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
