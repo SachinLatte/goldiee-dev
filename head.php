@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
   <!--Swiper Carousel-->
   <link rel='stylesheet' href='https://unpkg.com/swiper@6.3.2/swiper-bundle.min.css'>
+  <!--Aos Animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!--Owl Carousel-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <!--Smoothscroll-->

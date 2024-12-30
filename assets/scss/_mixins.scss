@@ -1,9 +1,9 @@
 @mixin common-heading{
   font-family: $heading-font;
   color: $primary-color;
-  font-size: 2em;
-  font-weight: 500;
-  text-transform: capitalize;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-transform: uppercase;
   line-height: 46px;
   @include breakpoints(1536px){
     font-size: 1.8em;
@@ -60,7 +60,7 @@
 }
 
 @mixin counter-container{
-  max-width: 1320px;
+  width: 75%;
   margin: 0 auto;
   display: block;
 }

@@ -78,6 +78,15 @@
           width: 117%;
         }
       }
+      &:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #00000066;
+        top: 0;
+        left: 0;
+      }
     }
   }
 }
@@ -89,7 +98,8 @@ background-color:#fff;
 
 /************************************************Home About Section CSS************************************************/
 .home-about-section {
-  // @include common-padding;
+  background-color: $bg-color;
+  @include common-padding;
   h1{
     @include common-heading;
   }
@@ -166,7 +176,8 @@ background-color:#fff;
   }
   }
   .home-about-content{
-    padding-left: 5%;
+    width: 85%;
+    margin: 0 auto;
     ul{
       margin-left: 15px;
       padding: 0;
@@ -207,6 +218,7 @@ background-color:#fff;
     }
     p{
       @include common-para;
+      text-align: center;
     }
   }
 
@@ -295,7 +307,7 @@ background-color:#fff;
   font-family: $heading-font;
   color: $white-color;
   background-color: $bg-color;
-  @include common-padding;
+  // padding: 0 0 4% 0;
   h4{
     font-weight: 300;
     font-size: 22px;
@@ -347,10 +359,10 @@ background-color:#fff;
 .counter-one__wrap{
   position: relative;
   display: block;
-  background-color:#141422;
-  padding: 120px 0 150px;
+  // background-color:$black-color;
+  padding: 120px 0 120px;
   border-radius: 20px;
-  max-width: 1760px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   .counter-container{
@@ -371,11 +383,11 @@ background-color:#fff;
             display: inline-block;
             font-size: 12px;
             line-height: 12px;
-            color: $white-color;
+            color: $paragraph-color;
             font-weight: 500;
-            letter-spacing: 1.5px;
+            letter-spacing: 1px;
             text-transform: uppercase;
-            border: 1px solid #cdcdcd;
+            border: 1px solid $primary-color;
             padding: 8px 20px 6px;
             border-radius: 14px;
         }
@@ -384,7 +396,7 @@ background-color:#fff;
       }
       }
       .section-title__title {
-        color: $white-color;
+        color: $paragraph-color;
         font-size: 50px;
         line-height: 60px;
         font-weight: 700;
@@ -426,15 +438,19 @@ background-color:#fff;
         font-weight: 700;
         line-height: 36px;
         margin-top: 3px;
+        margin-bottom: 0;
         a {
-          color: var(--maroof-white);
+          color: $primary-color;
       }
+    }
+    p{
+      color: $primary-color;
+      font-weight: 600;
     }
   }
   }
   .counter-one__text{
     @include common-para;
-    color: $white-color;
   }
   }
   .counter-one__right {
@@ -447,7 +463,7 @@ background-color:#fff;
       text-align: center;
       border: 1px solid grey;
       border-radius: 20px;
-      padding: 19px 30px 19px;
+      padding: 30px;
       margin-bottom: 30px;
       .counter-one__icon-and-count-box {
         position: relative;
@@ -473,26 +489,29 @@ background-color:#fff;
         display: flex;
         align-items: center;
        h3 {
-          font-size: 45px;
-          font-weight: 600;
+          font-size: 55px;
+          font-weight: 800;
           line-height: 59px;
-          letter-spacing: -1.2px;
-          color:$white-color;
-          font-family: $heading-font;
-      }
+          color:$primary-color;
+          font-family: $paragraph-font;      
+        }
       span {
         font-size: 59px;
         font-weight: 700;
         line-height: 59px;
         letter-spacing: -1.2px;
-        color: $white-color;
+        color: $primary-color;
     }
     }
     }
     p {
-      color: $white-color;
+      color: $paragraph-color;
       margin-top: 5px;
       font-family: $paragraph-font;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
   }
   }
   }
@@ -506,7 +525,7 @@ background-color:#fff;
   display: block;
   z-index: 2;
   background-color: $bg-color;
-  padding-bottom: 4%;
+  width: 100%;
   .counter-container{
     @include counter-container;
     .cta-one__inner {
@@ -518,7 +537,7 @@ background-color:#fff;
       background-repeat: no-repeat;
       border-radius: 20px;
       top: -200px;
-      padding:55px;
+      padding:55px 55px 75px 200px;
       z-index: 1;
       background-size: cover;
       background-position: center;
@@ -576,13 +595,12 @@ background-color:#fff;
 }
 .thm-btn-two {
 @include common-button;
-
-font-size: 18px;
-padding: 11px 21px;
+font-size: 16px;
+padding: 9px 19px;
 border: 1px solid $white-color;
 color: $white-color;
 text-decoration: none;
-font-size: 18px;
+display: block;
 }
 @keyframes leftRight{
   0% {
@@ -600,7 +618,6 @@ font-size: 18px;
 .home-our-brands{
 width: 100%;
 @include common-padding;
-background-color: $grey-color;
 h1{
   @include common-heading;
 }
@@ -612,7 +629,7 @@ p{
   display: grid;
   grid-auto-rows:auto;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  grid-gap: 0;
+  grid-gap: 2px;
   width: 100%;
   @include breakpoints(1600px){
     margin-top: 40px;
@@ -690,6 +707,7 @@ p{
         overflow: hidden;
         border: 1px solid #fff9f9;
         cursor: pointer;
+        border-radius: 15px;
         &:hover {
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
@@ -885,7 +903,7 @@ background-color: #faf6f3;
 	justify-content:center;
   color: $paragraph-color;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   &:before {
 		content: "";
 		background-color: rgba(#000, .2);

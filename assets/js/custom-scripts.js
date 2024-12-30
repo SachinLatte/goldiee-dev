@@ -41,7 +41,7 @@ return "<h2 class='current-title'>" + currentTitle + "</h2>";
 //SMOOTH SCROLL
 const lenis = new Lenis();
 lenis.on('scroll', (e) => {
-  console.log(e);
+  // console.log(e);
 });
 function raf(time) {
   lenis.raf(time);
@@ -101,7 +101,7 @@ $(".latest-from-goldiee").owlCarousel({
   loop: true,
   margin: 15,
   nav: true,
-  autoplay: false,
+  autoplay: true,
   autoplayTimeout: 3000,
   smartSpeed: 1500,
   animateIn: 'linear',
@@ -175,5 +175,11 @@ $('.back-to-top').click(function() {
     scrollTop: 0
   }, 800);
   return false;
+});
+
+
+//AOS ANIMATION
+AOS.init({
+  once:true,
 });
 

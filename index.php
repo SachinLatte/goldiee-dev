@@ -16,51 +16,40 @@
     <div class="swiper-pagination"></div>
 </div>
 </section>  
+<!-- <section class="home-about-section">
+  <div class="custom-container">
+        <div class="home-about-content text-center">
+            <h1 class="mb-4" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="500">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
+            <p data-aos="fade-up" data-aos-duration="800">Founded in 1980, the Goldiee Group today boasts of being one of the largest producers of quality spices and food products in India. It has expanded and diversified business operations into Food Processing, and Pooja Kit in addition to manufacturing of Spices. The Goldiee Group has grown by leaps and bounds, since it was founded in 1980 today giving jobs to more than 4000 people.</p>
+              <br>
+            <p data-aos="fade-up" data-aos-duration="1000">Known for aromatic, flavorful and premium quality spices, the group has a well-built network of Spice cultivators and likewise a sturdy network of distributors which makes Goldiee Group amongst the best in the country</p>
+        </div>
+  </div>
+</section> -->
+<section class="home-about-section">
+  <div class="custom-container">
+        <div class="home-about-content text-center">
+            <h1 class="mb-4" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="500">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
+            <p data-aos="fade-up" data-aos-duration="800">Founded in 1980, the Goldiee Group today boasts of being one of the largest producers of quality spices and food products in India. It has expanded and diversified business operations into Food Processing, and Pooja Kit in addition to manufacturing of Spices. The Goldiee Group has grown by leaps and bounds, since it was founded in 1980 today giving jobs to more than 4000 people.</p>
+              <br>
+            <p data-aos="fade-up" data-aos-duration="1000">Known for aromatic, flavorful and premium quality spices, the group has a well-built network of Spice cultivators and likewise a sturdy network of distributors which makes Goldiee Group amongst the best in the country</p>
+        </div>
+  </div>
+</section>
 <section class="counter-stats">
-	<!-- <div class="custom-container">
-    <h4>Goldiee Group at a glance</h4>
-		<div class="row no-gutters">
-			<div class="col-3 stats pl-4">
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="90">0</div>
-          <span>+</span>
-        </div>
-				<h5>NUMBER OF TEACHERS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="7000">0</div>
-        </div>
-				<h5>NUMBER OF SCHOOLS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="240">0</div>
-          <span>+</span>
-        </div>
-				<h5>NUMBER OF STUDENTS</h5>
-			</div>
-			<div class="col-3 stats pl-4">
-        <div class="stats-count">
-				  <div class="usp-counting" data-count="1800">0</div>
-        </div>
-				<h5>NUMBER OF PARENTS</h5>
-			</div>
-		</div>
-	</div> -->
-  <div class="counter-one__wrap">
+  <div class="counter-one__wrap" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="500">
                 <div class="counter-container">
                     <div class="row">
                         <div class="col-xl-6 wow fadeInLeft animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInLeft;">
                             <div class="counter-one__left">
                                 <div class="section-title text-left">
                                     <div class="section-title__tagline-box">
-                                        <span class="section-title__tagline">number talks</span>
+                                        <span class="section-title__tagline" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500">About Us</span>
                                     </div>
-                                    <h2 class="section-title__title"><span>The Foundation</span> of Authentic Indian Flavors</h2>
+                                    <h2 class="section-title__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700"><span>The Foundation</span> of Authentic Indian Flavors</h2>
                                 </div>
-                                <p class="counter-one__text">The administrative office and production hub of Goldieeis located at kanpur. Goldiee has spacious, sophisticated and ultra hygienic plants spread over a span of 56400 sq. yards. The finest of Indian machines with a cleaning and processing capacity of more than 60,000 kilograms every day, work to meet the global spice market demands.</p>
-                                <div class="counter-one__need-help">
+                                <p class="counter-one__text" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">The administrative office and production hub of Goldieeis located at kanpur. Goldiee has spacious, sophisticated and ultra hygienic plants spread over a span of 56400 sq. yards. The finest of Indian machines with a cleaning and processing capacity of more than 60,000 kilograms every day, work to meet the global spice market demands.</p>
+                                <div class="counter-one__need-help" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                                     <div class="icon">
                                         <span class="icon-call"><i class="fa-solid fa-phone"></i></span>
                                     </div>
@@ -75,12 +64,12 @@
                             <div class="counter-one__right">
                                 <div class="row">
                                     <!--Counter One Single Start-->
-                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInLeft;">
+                                    <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1500">
                                         <div class="counter-one__single">
                                             <div class="counter-one__icon-and-count-box">
-                                                <div class="counter-one__icon">
+                                                <!-- <div class="counter-one__icon">
                                                     <span class="icon-setting"><i class="fa-regular fa-snowflake"></i></span>
-                                                </div>
+                                                </div> -->
                                                 <div class="counter-one__count count-box counted">
                                                     <h3 class="count-text usp-counting" data-count="1980">0</h3>
                                                 </div>
@@ -90,12 +79,12 @@
                                     </div>
                                     <!--Counter One Single End-->
                                     <!--Counter One Single Start-->
-                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+                                    <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1500">
                                         <div class="counter-one__single">
                                             <div class="counter-one__icon-and-count-box">
-                                                <div class="counter-one__icon">
+                                                <!-- <div class="counter-one__icon">
                                                     <span class="icon-wall"><i class="fa-regular fa-snowflake"></i></span>
-                                                </div>
+                                                </div> -->
                                                 <div class="counter-one__count count-box counted">
                                                     <h3 class="count-text usp-counting" data-count="200">0</h3>
                                                 </div>
@@ -105,12 +94,12 @@
                                     </div>
                                     <!--Counter One Single End-->
                                     <!--Counter One Single Start-->
-                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft;">
+                                    <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1700">
                                         <div class="counter-one__single">
                                             <div class="counter-one__icon-and-count-box">
-                                                <div class="counter-one__icon">
+                                                <!-- <div class="counter-one__icon">
                                                     <span class="icon-robotic-arm"><i class="fa-regular fa-snowflake"></i></span>
-                                                </div>
+                                                </div> -->
                                                 <div class="counter-one__count count-box counted">
                                                 <h3 class="count-text usp-counting" data-count="50">0</h3>
                                                 </div>
@@ -120,12 +109,12 @@
                                     </div>
                                     <!--Counter One Single End-->
                                     <!--Counter One Single Start-->
-                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight animated" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInRight;">
+                                    <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1700">
                                         <div class="counter-one__single">
                                             <div class="counter-one__icon-and-count-box">
-                                                <div class="counter-one__icon">
+                                                <!-- <div class="counter-one__icon">
                                                     <span class="icon-engineer"><i class="fa-regular fa-snowflake"></i></span>
-                                                </div>
+                                                </div> -->
                                                 <div class="counter-one__count count-box counted">
                                                 <h3 class="count-text usp-counting" data-count="157">0</h3>
                                                 </div>
@@ -141,9 +130,10 @@
                 </div>
   </div>
 </section>
-<section class="cta-one">
+
+<!-- <section class="cta-one">
     <div class="counter-container">
-        <div class="cta-one__inner">
+        <div class="cta-one__inner" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="cta-one__img-one">
                 <img src="assets/img/machine.webp" alt="">
             </div>
@@ -155,67 +145,13 @@
             </div>
         </div>
     </div>
-</section>
-<section class="home-about-section">
-  <!-- <div class="custom-container">
-    <div class="row">
-      <div class="col-md-5">
-          <div class="about-video-div">
-          <div class="play-box text-lg-end text-center" style="visibility: visible;" id="about-video">
-                <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok" class="video-popup" target="_blank"><i class="fa-solid fa-play"></i></a>
-          </div>
-          </div>
-      </div>
-      <div class="col-md-7">
-        <div class="home-about-content">
-            <h1 class="mb-2">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
-            <p>As part of diversification into the processed food business, “OneOne” brand was launched by Goldiee Group. Noodles, Pasta and Macaroni are the products under the processed food brand.</p>
-              <br>
-            <p>The Pooja Kit is another foray among our diversifications. One can find Incense sticks, yarn, dhoop, roli, among the popular products. </p>
-            <ul class="mt-4">
-              <li class="mb-4">
-                <div>
-                  <h4 class="mb-1">Corporis voluptates</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur <br> laboris nisi ut aliquip </p>
-                </div>
-              </li>
-              <li class="mb-2">
-                <div>
-                  <h4 class="mb-1">
-                  Explicabo consectetur</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur <br>  laboris nisi ut aliquip </p>
-                </div>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="row no-gutters">
-      <div class="col-md-5">
-          <div class="about-video-div">
-          <div class="play-box text-lg-end text-center" style="visibility: visible;" id="about-video">
-                <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok" class="video-popup" target="_blank"><i class="fa-solid fa-play"></i></a>
-          </div>
-          </div>
-      </div>
-      <div class="col-md-7">
-        <div class="home-about-content">
-            <h1 class="mb-2">Goldiee Group signifies the epitome of quality <br> and company's principles as foreseen by its founders.</h1>
-            <p>As part of diversification into the processed food business, “OneOne” brand was launched by Goldiee Group. Noodles, Pasta and Macaroni are the products under the processed food brand.</p>
-              <br>
-            <p>The Pooja Kit is another foray among our diversifications. One can find Incense sticks, yarn, dhoop, roli, among the popular products. </p>
-        </div>
-      </div>
-    </div>
-</section>
-
+</section> -->
 <section class="home-our-brands">
   <div class="custom-container">
-    <h1 class="mb-2">Our Brands</h1>
-    <p>With over seven decades of responsible business practices, our businesses have grown into global powerhouses in a wide range of <br> sectors – from metals to cement, fashion to financial services and textiles to trading.</p>
+    <h1 class="mb-2 text-center" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="500">Our Brands</h1>
+    <p class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">With over seven decades of responsible business practices, our businesses have grown into global powerhouses in a wide range of <br> sectors – from metals to cement, fashion to financial services and textiles to trading.</p>
     <div class="home-brands-grid">
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/goldiee-masale.webp" alt="goldiee masale">
           <div class="home-brands-content">
@@ -224,7 +160,7 @@
           </div>
         </a>
       </div>
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/double-engine.webp" alt="double engine">
           <div class="home-brands-content">
@@ -233,7 +169,7 @@
           </div>
         </a>
       </div>
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/ketchup-sauces.webp" alt="ketchup sauces">
           <div class="home-brands-content">
@@ -242,7 +178,7 @@
           </div>
         </a>
       </div>
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/one-one-noodles.webp" alt="one one noodles">
           <div class="home-brands-content">
@@ -251,7 +187,7 @@
           </div>
         </a>
       </div>
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1600">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/pooja-ghar.webp" alt="pooja ghar">
           <div class="home-brands-content">
@@ -260,7 +196,7 @@
           </div>
         </a>
       </div>
-      <div class="home-brands position-relative">
+      <div class="home-brands position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1800">
         <a href="javascript:void(0)" class="d-block">
           <img src="assets/img/business/beverages.webp" alt="beverages">
           <div class="home-brands-content">
@@ -274,62 +210,62 @@
 </section>
 <section class="home-blogs">
   <div class="custom-container">
-    <h1 class="mb-2">Latest from Goldiee</h1>
+    <h1 class="mb-2" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="500">Latest from Goldiee</h1>
     <hr>
     <div class="home-blog-carousel mt-4">
     <div class="owl-carousel latest-from-goldiee owl-theme">
-    <div class="item">
+    <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
       <div class="bolgs-img-div">
         <img src="assets/img/blog1.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
         <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
-        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <!-- <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p> -->
         <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
-    <div class="item">
+    <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <div class="bolgs-img-div">
         <img src="assets/img/blog2.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
         <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
-        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <!-- <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p> -->
         <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
-    <div class="item">
+    <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
       <div class="bolgs-img-div">
         <img src="assets/img/blog3.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
         <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
-        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <!-- <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p> -->
         <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
-    <div class="item">
+    <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">
       <div class="bolgs-img-div">
         <img src="assets/img/blog4.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
         <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
-        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <!-- <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p> -->
         <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
-    <div class="item">
+    <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1600">
       <div class="bolgs-img-div">
         <img src="assets/img/blog5.webp" alt="Great Britain">
       </div>
       <div class="blogs-content">
         <span>28 November, 2024</span>
         <h4 class="truncate-heading">Godrej Enterprises Group Launches Refreshed Brand Identity</h4>
-        <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p>
+        <!-- <p class="truncate-para">The Godrej Enterprises Group (GEG), a leading diversified engineering and design-led conglomerate, unveiled a refreshed brand identity aimed at unlocking new worlds for customers and other stakeholders.</p> -->
         <button class="btn read-more"> <a href="javascript:void(0)">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
       </div>
     </div>
@@ -351,7 +287,7 @@
 <section class="home-awards-achievements">
   <div class="awards-container">
   <div class="title title--center-line">Recognized By The Best</div>
-    <h4 class="mt-4">"Godrej Properties has received over 400 awards and <br> recognitions in the recent years."</h4>
+    <h4 class="mt-4">When it comes to Quality there is no compromise, following <br> all standards and good manufacturing practices.</h4>
     <div class="awards-achievements-grid">
       <div class="awards-box">
         <img src="assets/img/awards/awards-icon.svg" alt="">

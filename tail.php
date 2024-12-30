@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <!--Owl Carousel-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!--Aos Animation-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!--custom Scripting-->
 <script src="assets/js/custom-scripts.js"></script>
 
